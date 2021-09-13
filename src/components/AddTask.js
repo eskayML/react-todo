@@ -15,6 +15,7 @@ function AddTask({addTask}) {
         }
         addTask({name , completed })
         setName('')
+        e.target.reset()
     }
 
 
